@@ -7,8 +7,27 @@
     "circomlib": "^2.0.3",
     "circomlibjs": "^0.1.2",
     "ethereum-waffle": "^3.4.4",
-    "ethers": "^5.6.4",
+    "ethers": "^5.6.5",
     "hardhat": "^2.9.3",
     "snarkjs": "^0.4.16"
-  }
+  },
+  "dependencies": {
+    "@openzeppelin/contracts-upgradeable": "^4.6.0",
+    "dotenv": "^16.0.1",
+    "next": "^12.1.6",
+    "web3modal": "^1.9.7"
+  },
+  "description": "Install the required node modules by running:\r ```shell\r npm install\r ```",
+  "version": "1.0.0",
+  "main": "hardhat.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "SET NODE_ENV=dev && node server.js",
+    "test": "mocha --timeout 10000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
